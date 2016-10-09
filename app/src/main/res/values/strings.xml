@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Santa Cruz</string>
+
+    <!-- places-->
+    <string name="restaurant_factory">Factory Grill and Bar</string>
+    <string name="restaurant_ken">Ken</string>
+    <string name="restaurant_Tapekua">Tapekua</string>
+    <string name="restaurant_la_casa_de_la_paella">La Casa de la Paella</string>
+    <string name="restaurant_casa_del_camba">Casa del Camba</string>
+    <string name="restaurant_la_suisse">Chalet La Suisse</string>
+    <string name="hotel_los_tajibos">Hotel Los Tajibos</string>
+    <string name="hotel_camino_real">Hotel Camino Real</string>
+    <string name="hotel_cortez">Hotel Cortez</string>
+    <string name="hotel_buganvillas">Hotel Buganvillas</string>
+    <string name="hotel_sense">Sense Boutique</string>
+    <string name="hotel_hampton">Hotel Hampton</string>
+    <string name="surroundings_san_jose">San Jose de Chiquitos</string>
+    <string name="surroundings_fortress_samaipata">Fortress of Samaipata</string>
+    <string name="surroundings_espejillos">Espejillos</string>
+    <string name="surroundings_guembe">Biocentro Guembe</string>
+    <string name="surroundings_laguna_volcan">Laguna Volcan</string>
+    <string name="surroundings_rinconada">La Rinconada</string>
+    <string name="night_life_trip">Trip</string>
+    <string name="night_duda">Duda Pop Pub</string>
+    <string name="night_irish_pub">Irish Pub</string>
+    <string name="night_goss">Goss</string>
+    <string name="night_elegua">Elegua</string>
+    <string name="night_kabana">Kabana</string>
+    <!-- short descriptions of the places-->
+    <string name="short_restaurant_factory">American style restobar, great place to eat hamburguers</string>
+    <string name="short_restaurant_ken">Japanese restaurant, try their katsudon</string>
+    <string name="short_restaurant_tapekua">Live music restaurant with great food too</string>
+    <string name="short_restaurant_paella">Spanish restaurant, experts in Paellas</string>
+    <string name="short_restaurant_casa_camba">SantaCruz\'s traditional food, must try!</string>
+    <string name="short_restaurant_la_suisse">Gourmet food for special occassions</string>
+    <string name="short_hotel_buganvillas">Great hotel with suite and spa service</string>
+    <string name="short_hotel_los_tajibos">Santa Cruz\'s most luxurious hotel</string>
+    <string name="short_hotel_camino_real">Great location and great service</string>
+    <string name="short_hotel_cortez">Traditional hotel, great prices</string>
+    <string name="short_hotel_sense">Best hotel for party animals</string>
+    <string name="short_hotel_hampton">near everything hotel by Hilton</string>
+    <string name="short_surroundings_espejillos">swim and relax with the waterfalls</string>
+    <string name="short_surroundings_san_jose">Small town near the city, very traditional</string>
+    <string name="short_surroundings_fortress_samaipata">Long walks, superb views and history</string>
+    <string name="short_surroundings_guembe">Beautiful eco park with animals, pools and food</string>
+    <string name="short_surroundings_laguna_volcan">Eco resort, take a break of the world</string>
+    <string name="short_surroundings_rinconada">Ecopark/restaurant eat while enjoying nature</string>
+    <string name="short_night_duda">Nice pub, dress informal and dance a bit</string>
+    <string name="short_night_trip">Night club with different city themes every night</string>
+    <string name="short_night_irish_pub">Quiet pub with great music to have a beer talk</string>
+    <string name="short_night_goss">Sushi bar, with live music</string>
+    <string name="short_night_elegua">Caribbean dance club</string>
+    <string name="short_night_kabana">Resto bar good music good food nice people</string>
+
+
+
+</resources>
