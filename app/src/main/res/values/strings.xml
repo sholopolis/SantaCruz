@@ -52,6 +52,40 @@
     <string name="short_night_elegua">Caribbean dance club</string>
     <string name="short_night_kabana">Resto bar good music good food nice people</string>
 
+    <!-- specials-->
+    <string name="Maps_class">com.google.android.apps.maps</string>
+    <string name="colorId">colorId</string>
+    <string name="geo">geo:</string>
+    <string name="q">"?q="</string>
+    <!-- webpages-->
+    <string name="web_hampton">https://www.facebook.com/hamptonsantacruz/?fref=ts</string>
+    <string name="web_trip">https://www.facebook.com/TripScz/</string>
+    <string name="web_duda">https://www.facebook.com/dudapub/</string>
+    <string name="web_irish">http://irishpub.com.bo/</string>
+    <string name="web_kabana">https://www.facebook.com/KabanaRestoBar/</string>
+    <string name="web_goss">https://www.facebook.com/goss.bolivia/?fref=ts</string>
+    <string name="web_elegua">https://www.facebook.com/EleguaEscuelaDeBaile/</string>
+    <string name="web_san_jose_de_chiquitos">http://www.sanjosedechiquitos.com/</string>
+    <string name="web_fuerte_samaipata">http://www.rutaverdebolivia.com/sp/el-fuerte-samaipata.php</string>
+    <string name="web_espejillos">http://www.bolivia-online.net/en/santa-cruz/134/los-espejillos</string>
+    <string name="web_guembe">http://www.biocentroguembe.com/</string>
+    <string name="web_laguna_volcan">ecolagunavolcan.com</string>
+    <string name="web_los_tajibos">http://www.lostajiboshotel.com/</string>
+    <string name="web_camino_real">caminoreal.com.bo</string>
+    <string name="web_buganvillas">http://buganvillassuitesspa.com-hotel.com/</string>
+    <string name="web_cortez">http://www.hotelcortez.com/</string>
+    <string name="web_sense">http://www.senseshotelboutique.com-hotel.com/</string>
+    <string name="web_factory_Grill_and_Bar">https://www.facebook.com/factorysantacruz</string>
+    <string name="web_ken">http://www.restaurantkenbolivia.com/</string>
+    <string name="web_tapekua">http://www.tapekua.com/</string>
+    <string name="web_la_casa_de_la_Paella">https://www.facebook.com/casapaellasantacruzbolivia/</string>
+    <string name="web_casa_del_camba">http://www.casadelcamba.com/</string>
+    <string name="web_la_suisse">http://www.chaletlasuisse.com/santacruz/</string>
+    <string name="web_la_rinconada">http://larinconada.com.bo/</string>
 
-
+    <!-- tabs-->
+    <string name="tab_Restaurants">Restaurants</string>
+    <string name="tab_hotels">Hotels</string>
+    <string name="tab_surroundings">Surroundings</string>
+    <string name="tab_night_life">Night Life</string>
 </resources>

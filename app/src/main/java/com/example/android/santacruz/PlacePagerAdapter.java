@@ -1,5 +1,7 @@
 package com.example.android.santacruz;
 
+import android.content.Context;
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,9 +12,10 @@ import android.support.v4.app.FragmentStatePagerAdapter;
  */
 
 public class PlacePagerAdapter extends FragmentStatePagerAdapter {
-
-    public PlacePagerAdapter(FragmentManager fm) {
+    Context context;
+    public PlacePagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.context = context;
     }
 
     @Override
@@ -39,13 +42,13 @@ public class PlacePagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position){
             case 0:
-                return "Restaurants";
+                return context.getString(R.string.tab_Restaurants);
             case 1:
-                return "Hotels";
+                return context.getString(R.string.tab_hotels);
             case 2:
-                return "Surroundings";
+                return context.getString(R.string.tab_surroundings);
             case 3:
-                return "Night Life";
+                return context.getString(R.string.tab_night_life);
         }
         return "";
     }

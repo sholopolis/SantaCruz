@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager)findViewById(R.id.viewPager);
 
         // setting up the adapter for the fragments to be displayed
-        viewPager.setAdapter(new PlacePagerAdapter(getSupportFragmentManager()));
+        viewPager.setAdapter(new PlacePagerAdapter(getSupportFragmentManager(), this));
 
         // attaching tabs to the viewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);

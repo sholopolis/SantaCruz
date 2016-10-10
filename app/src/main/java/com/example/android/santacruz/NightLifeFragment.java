@@ -24,22 +24,22 @@ public class NightLifeFragment extends Fragment {
         // create array containing all the information for the night activities
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(getString(R.string.night_duda),-17.781818, -63.184239
-                , "" + 77600655,"https://www.facebook.com/dudapub/",R.drawable.duda_mini,
+                , "" + 77600655,getString(R.string.web_duda),R.drawable.duda_mini,
                 getString(R.string.short_night_duda), R.drawable.duda_detail));
         places.add(new Place(getString(R.string.night_kabana),-17.781462, -63.181544
-                , "" + 75525775,"https://www.facebook.com/KabanaRestoBar/",R.drawable.kabana_mini,
+                , "" + 75525775,getString(R.string.web_kabana),R.drawable.kabana_mini,
                 getString(R.string.short_night_kabana), R.drawable.kabana_detail));
         places.add(new Place(getString(R.string.night_elegua),-17.776875, -63.182136
-                , "" + 77026522,"https://www.facebook.com/EleguaEscuelaDeBaile/",R.drawable.elegua_mini,
+                , "" + 77026522,getString(R.string.web_elegua),R.drawable.elegua_mini,
                 getString(R.string.short_night_elegua), R.drawable.elegua_detail));
         places.add(new Place(getString(R.string.night_goss),-17.769607, -63.190333
-                , "" + 3353070,"https://www.facebook.com/goss.bolivia/?fref=ts",R.drawable.goss_mini,
+                , "" + 3353070,getString(R.string.web_goss),R.drawable.goss_mini,
                 getString(R.string.short_night_goss), R.drawable.goss_detail));
         places.add(new Place(getString(R.string.night_irish_pub),-17.783093, -63.181548
-                , "" + 33338118,"http://irishpub.com.bo/",R.drawable.irish_pub_mini,
+                , "" + 33338118,getString(R.string.web_irish),R.drawable.irish_pub_mini,
                 getString(R.string.short_night_irish_pub),R.drawable.irish_pub_detail));
         places.add(new Place(getString(R.string.night_life_trip),-17.784768, -63.180448
-                , "" + 78008557,"https://www.facebook.com/TripScz/",R.drawable.trip_mini,
+                , "" + 78008557,getString(R.string.web_trip),R.drawable.trip_mini,
                 getString(R.string.short_night_trip),R.drawable.trip_detail));
 
         //find the list view
@@ -57,7 +57,7 @@ public class NightLifeFragment extends Fragment {
                 Place currentPlace = places.get(position);
                 Intent intent = new Intent(getContext(),Details.class);
                 intent.putExtra("com.example.android.santacruz.Place", currentPlace);
-                intent.putExtra("colorId",R.color.category_night_life);
+                intent.putExtra(getString(R.string.colorId),R.color.category_night_life);
                 startActivity(intent);
             }
         });

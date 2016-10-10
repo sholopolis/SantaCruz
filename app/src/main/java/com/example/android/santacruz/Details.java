@@ -24,7 +24,7 @@ public class Details extends AppCompatActivity {
         //getting the place object to be displayed
         mPlace =(Place) getIntent().getParcelableExtra("com.example.android.santacruz.Place");
         // getting and setting the background color
-        mColorId = getIntent().getIntExtra("colorId",0);
+        mColorId = getIntent().getIntExtra(getString(R.string.colorId),0);
         LinearLayout info = (LinearLayout) findViewById(R.id.details_info);
         info.setBackgroundResource(mColorId);
         // get image for details
@@ -53,9 +53,9 @@ public class Details extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("geo:"+ mPlace.getLatitud()+ ", " + mPlace.getLongitud()+ "?q=" + mPlace.getNameOfPlace());
+                Uri gmmIntentUri = Uri.parse(getString(R.string.geo)+ mPlace.getLatitud()+ ", " + mPlace.getLongitud()+ getString(R.string.q) + mPlace.getNameOfPlace());
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
+                mapIntent.setPackage(getString(R.string.Maps_class));
                 if (mapIntent.resolveActivity(getPackageManager()) != null) {
                      startActivity(mapIntent);
                 }
